@@ -33,7 +33,7 @@ void main()
 		printf("enter school\t : ");
 		scanf("%s",&s[i].school);
 	}
-	printf("\n\nid\tname\tage\tcourse\tcity\tstandard\tschool\\n === === === === === === === ===\n");
+	printf("\n\nid\tname\tage\tcourse\tcity\tstandard\tschool\t\n === === === === === === === ===");
 	for(i=0; i<n; i++){
 		printf("%d\t%s\t%d\t%s\t%s\t%d\t%s\n",s[i].id,s[i].name,s[i].age,s[i].course,s[i].city,s[i].standard,s[i].school);
 	}
